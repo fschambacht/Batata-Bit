@@ -130,15 +130,15 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
-/* data information */
+/* data information table's */
 .exchange-section__data-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     min-width: 235px;
     max-width: 500px;
     width: 90%;
-    justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 
 .exchange-section__table-container {
@@ -147,6 +147,7 @@ main {
     width: 100%;
     min-width: 202px;
     max-width: 500px;
+    margin: 0px 35px;
 }
 
 .exchange-section__table-title {
@@ -229,11 +230,11 @@ main {
 }
 
 .exchange-section__left-nav {
-    padding-right: 22px;
+    padding-left: 15px;
 }
 
 .exchange-section__right-nav {
-    padding-left: 22px;
+    padding-right: 15px;
 }
 
 .exchange-section__bottom-img {
