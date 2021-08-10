@@ -1,0 +1,64 @@
+header {
+    height: 470px;
+}
+.header__title {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.header__p {
+    font-size:2rem;
+    line-height: 2.4rem;
+}
+
+.exchange-section__title {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.exchange-section__p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.exchange-section__data-container {
+    justify-content: center;
+}
+
+.exchange-section__table-container {
+    margin: 0px 16px;
+}
+
+.benefits-section__main-title {
+    width: 466px;
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.benefits-section__main-p {
+    width: 466px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.banner-section {
+    height: 299px;
+    background-image: url('../assets/img/bitcoinbaby\ 2.jpg');
+}
+
+.plan-section__main-title {
+    width: 466px;
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.plan-section__main-p {
+    width: 466px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.plan-section__carousel-container {
+    justify-content: center;
+}

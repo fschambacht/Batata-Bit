@@ -38,14 +38,12 @@ header {
 .header__top-image {
     width: 129px;
     height: 25px;
-    margin-top: 40px;
 }
 
 .header__title-container {
     width: 90%;
     min-width: 288px;
-    max-width: 900px;
-    height: 218px;
+    max-width: 464px;
     margin-top: 30px;
     text-align: center;
 }
@@ -58,7 +56,7 @@ header {
 }
 
 .header__p {
-    margin-top: 25px;
+    margin-top: 24px;
     color: var(--soft-orange);
     font-size: 1.4rem;
     line-height: 1.8rem;
@@ -92,7 +90,7 @@ main {
 /* exchange-section */
 .exchange-section {
     width: 100%;
-    padding-top: 50px;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +107,7 @@ main {
 .exchange-section__title-container {
     width: 90%;
     min-width: 288px;
-    max-width: 900px;
+    max-width: 466px;
     margin: 20px 0px;
 }
 
@@ -133,23 +131,22 @@ main {
 .exchange-section__data-container {
     width: 100%;
     display: flex;
-    justify-content: safe center;
+    /* justify-content: safe center; */
     align-items: center;
-    padding: 0px 59px;
     margin-bottom: 15px;
     overflow: auto;
     scroll-snap-type: x proximity;
     overscroll-behavior-x: contain;
-    gap: 30px;
+    /* gap: 30px; */
 }
 
 .exchange-section__table-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    min-width: 202px;
-    max-width: 400px;
+    min-width: 207px;
+    max-width: 247px;
     scroll-snap-align: center;
+    margin: 0px 59px;
 }
 
 .exchange-section__table-title {
@@ -243,7 +240,7 @@ main {
 
 .exchange-section__bottom-img {
     position: relative;
-    bottom: -15px;
+    bottom: -75px;
 }
 
 .benefits-section {
@@ -317,7 +314,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('./assets/img/bitcoinbaby\ 1.png');
+    background-image: url('./assets/img/bitcoinbaby\ 1.jpg');
 }
 
 .banner-section__p {
@@ -358,18 +355,18 @@ main {
 .plan-section__carousel-container {
     width: 100%;
     display: flex;
-    justify-content: safe center;
+    /* justify-content: safe center; */
     padding: 0px 65px;
     overflow: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    gap: 8px;
+    /* gap: 8px; */
 }
 
 .plan-section__card-container {
     min-width: 190px;
-    max-width: 190px;
-    margin: 20px 0px;
+    max-width: 223px;
+    margin: 20px 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
